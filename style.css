@@ -1,0 +1,45 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+
+.header-main  #mega-menu-primary{
+    margin-top: 20px;
+}
+
+.header-main  .header-cart-link .icon-shopping-bag{
+	display: none;
+}
+/* .car_empty{
+    text-align: center;
+} */
+.full_cart_menu{
+    /* position: fixed; */
+}
+
+.woocommerce-error.message-wrapper, .woocommerce-message.message-wrapper{display: none}
+p .close-block{font-size:16px;}
+
+.select2-selection__rendered:focus,.select2-selection:focus,.select2-results__option:focus{outline: none}
+span.ui-slider-handle.ui-state-default.ui-corner-all.ui-state-hover:hover{border-color: #000000 !important}
+span.ui-slider-handle.ui-state-default.ui-corner-all.ui-state-active{border-color: #000000 !important}
+.full_cart_menu.open .breadcrumbs a:first-child{color: #111}
+.full_cart_menu.open .breadcrumbs a:first-child .breadcrumb-step{background-color: #333333}
+@media only screen and (max-width: 560px) {
+	nav.breadcrumbs{flex-direction: column}
+}
+
+.pwb-carousel.slick-initialized .pwb-slick-slide, .pwb-product-carousel.slick-initialized .pwb-slick-slide {
+	padding: 0 10px;
+}
